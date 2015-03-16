@@ -1,0 +1,1043 @@
+@import url(http://fonts.googleapis.com/css?family=Open\+Sans);
+@import url(http://fonts.googleapis.com/css?family=Handlee);
+
+
+blanco = #FFFFFF
+negro = #000000
+violeta = #1c1252
+
+*
+	border 0
+	margin 0
+	padding 0
+body
+	font-family 'Open Sans', sans-serif
+	font-size 16px
+	font-weight normal
+	height 100%
+	
+footer
+	height auto
+	margin 1em 0 0 0
+	text-align right
+	width 100%
+	a
+		color blanco
+	p
+		color blanco
+		font-size .8em
+		font-weight normal
+		margin 0 1em 0 0 
+
+	
+h1
+	margin 0
+	padding 0
+/* *********************** RWD INDEX ********************** */	
+nav
+	height auto
+	padding .3em 0 .3em .5em
+	width auto
+	ul li
+		display inline-block
+		font-size .8em
+		font-weight normal
+		padding 0 1em 0 1em
+		a
+			color negro
+			text-decoration none
+		a:hover
+			color grey
+			text-decoration underline
+@media screen and (min-width: 0px) and (max-width: 319px)	
+	*
+		margin 0
+		padding 0
+	body
+		height 100%
+	nav
+		display none
+	.Contenido-principal
+		.Columna-menu 
+			margin 0
+			padding 0
+			padding-bottom 4em
+			height auto
+			opacity .8
+			width 80%
+			ul li
+				font-size 1.1em
+				text-align left
+	.Redes
+		background violeta
+		padding .7em 0 .5em 0
+		text-align center
+		ul
+			text-align center				
+	footer
+		text-align center	
+
+@media screen and (min-width: 320px) and (max-width: 479px)
+	*
+		margin 0
+		padding 0
+	body
+		height 100%
+	nav
+		display none
+	.Contenido-principal
+		.Columna-menu 
+			margin 0
+			padding 0
+			padding-bottom 4em
+			height auto
+			opacity .8
+			width 80%
+			ul li
+				font-size 1.1em
+				text-align left
+	.Redes
+		padding .7em 0 .5em 0
+		text-align center
+		ul
+			text-align center				
+	footer
+		text-align center			
+		
+@media screen and (min-width: 480px) and (max-width: 759px) 
+	*
+		margin 0
+		padding 0
+	body
+		height 100%
+	.Contenido-principal
+		.Columna-menu
+			margin 0 0 1.5em 0
+			width 35%
+@media screen and (min-width: 760px) and (max-width: 1019px)
+	body
+		height 100%
+	.Contenido-principal
+		.Columna-menu 
+			margin 0
+			padding 0
+			padding-bottom 4em
+			margin 0 0 0 1em
+			height auto
+			opacity .8
+			width 27%
+			ul li
+				text-align left		
+	.Menu-internas
+		width 60%
+		ul li
+			margin 0 0 .3em 0
+			width 25%
+	.Imperial
+		height auto
+		p
+			padding 0 1.5em 0 1.5em
+	.Cuerpo-especial
+		h2
+			margin 0 1em 0 1em
+	.Consultar
+		height auto
+		margin 0 0 0 1.2em
+		width auto
+	.Contendio-eventos
+		height auto
+		p
+			padding 0 1.5em 0 1.5em
+	.Cont-pagos
+		height auto
+		p
+			padding 0 1.5em 0 1.5em
+	.Perfil-pablo
+		.Col-Pablo2
+			img 
+				height auto
+				width 100%
+	.Redes
+		position absolute
+		margin 0 0 1.5em 0
+		bottom 0
+		
+	footer
+		position absolute
+		bottom 0
+		
+	.Contenido-principal
+		background-image url('../img/cover.jpg')
+		height 800px
+/* *********************** RWD INDEX ********************** */	
+
+.Columna-menu
+	background negro
+	height 85%
+	margin 0 0 0 1.5em
+	opacity .9
+	width 16%
+		
+	ul
+		li
+			font-size .9em
+			font-weight normal
+			list-style none
+			line-height 25px
+			margin 0 0 0 1em
+			padding-top 1em
+			img
+				margin 1em 0 0 0
+			a
+				border-radius 3px
+				-webkit-border-radius 3px
+				-moz-border-radius 3px
+				-o-border-radius 3px
+				-ms-border-radius 3px
+				color blanco
+				text-decoration none
+				padding .2em .3em .2em .3em
+				webkit-transition all 0.5s ease
+				-moz-transition all 0.5s ease
+				-o-transition all 0.5s ease
+				transition all 0.5s ease
+			a:hover
+				color violeta
+				background blanco
+				-webkit-transition all 0.5s ease
+				-moz-transition all 0.5s ease
+				-o-transition all 0.5s ease
+				transition all 0.5s ease
+				
+.Menu
+	opacity .8
+
+.Contenido-principal
+	background-image url('../img/cover.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	height 650px
+	
+.Contenedor-zapatos
+	background-image url('../img/cover-zapatos.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+
+.Contenedor-pantalones
+	background-image url('../img/cover-pantalones.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+
+.Contenedor-trajes
+	background-image url('../img/cover-trajes.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+.Contenedor-formasDepago
+	background-image url('../img/cover-tarjetas.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+.Contenedor-aMedida
+	background-image url('../img/cover-amedida.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+
+.Contenedor-cinturones
+	background-image url('../img/cover-cinturones.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+
+.Contenedor-eventos
+	background-image url('../img/cover-eventos.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 223px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+@media screen and (min-width: 0px) and (max-width: 319px)	
+	.Contenedor-eventos
+		height 400px
+	.Eventos
+		.Cuerpo-especial
+			width 90%
+			.Contendio-eventos
+				padding 0 1em 0 1em
+
+.Contenedor-corbatas
+	background-image url('../img/cover-corbatas.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 90%100%
+		
+
+.Contenedor-condiciones
+	background-image url('../img/cover-condiciones.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+
+.Contenedor-camisas
+	background-image url('../img/cover-camisas.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 323px	
+	.Contenedor-menu
+		background negro
+		height 60px
+		margin 2em 0 0 0
+		opacity .8
+		width 100%
+		
+
+.Eventos
+	background-image url('../img/bg-eventos.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 618px	
+	
+
+.Sastre
+	background-image url('../img/fondo-trajes.jpg')
+	background-repeat no-repeat
+	background-position center
+	background-size cover
+	border-bottom 10px solid #1c1252
+	padding 2.5em 0 0 0
+	height 570px	
+	
+
+.Redes
+	text-align right
+	height auto
+	width 100%
+	ul li
+		display inline-block
+		padding 0 .8em 0 .5em
+		a:hover
+			opacity .6
+		
+
+.Imagen
+	display inline-block
+	margin -1em 0 0 1em
+	vertical-align middle
+	img
+		-webkit-box-shadow 7px 5px 15px #000000
+		-moz-box-shadow 7px 5px 15px #000000
+		box-shadow 7px 5px 15px #000000
+.Menu-internas
+	display inline-block
+	margin -1em 0 0 0
+	vertical-align middle
+	ul li
+		display inline-block
+		font-size .9em
+		font-weight normal
+		padding 0 .5em 0 1em		
+		a
+			color blanco
+			padding .5em .5em .5em .5em
+			text-decoration none
+		a:hover
+			color violeta
+			background blanco
+			border-radius 3px
+			-webkit-border-radius 3px
+			-moz-border-radius 3px
+			-ms-border-radius 3px
+			-o-border-radius 3px	
+			padding .2em .5em .2em .5em
+			-webkit-transition all 0.5s ease
+			-moz-transition all 0.5s ease
+			-o-transition all 0.5s ease
+			transition all 0.5s ease
+
+			
+
+.Cuerpo
+	border-bottom solid 1px grey
+	height auto
+	margin 0 auto
+	margin-top 2em
+	max-width 1200px
+	padding 1em 0 .3em 0
+	width 100%
+	h2
+		color grey
+		font-weight 100
+		
+
+.Cuerpo-especial
+	border-bottom solid 1px grey
+	height auto
+	margin 0 auto
+	margin-top .5em
+	max-width 1200px
+	padding 0 0 .3em 0
+	width 100%
+	h2
+		color grey
+		font-weight 100
+		
+
+.Contenido
+	height auto
+	margin 0 auto
+	margin-bottom 3em
+	margin-top 1.5em
+	max-width 1200px
+	display flex
+	display -webkit-flex
+	justify-content space-between
+	width 100%
+	.Col1
+		height auto
+		margin 0
+		padding 0
+		text-align center
+		width 20%
+		h2
+			font-size .9em
+			font-weight 100
+			text-align left
+		a
+			color blanco
+			background violeta
+			border-radius 3px
+			-webkit-border-radius 3px
+			-moz-border-radius 3px
+			-o-border-radius 3px
+			-ms-border-radius 3px
+			font-size .8em
+			font-weight normal
+			padding .2em .5em .2em .5em
+			text-decoration none
+		a:hover
+			background #423782
+		.Emboltorio
+			margin 0 0 4em 0
+		img
+			border solid 3px violeta
+			height auto
+			max-width 234px
+			width 100%
+		p
+			color grey
+			font-size .9em
+			font-weight normal
+			line-height 24px
+			margin 0 0 1em 0
+			padding 0 .3em 0 .3em
+			width auto
+	.Col2
+		height auto
+		text-align center
+		width 20%
+		h2
+			font-size .9em
+			font-weight 100
+			text-align left
+		a
+			color blanco
+			background violeta
+			border-radius 3px
+			-webkit-border-radius 3px
+			-moz-border-radius 3px
+			-o-border-radius 3px
+			-ms-border-radius 3px
+			font-size .8em
+			font-weight normal
+			padding .2em .5em .2em .5em
+			text-decoration none
+		a:hover
+			background #423782
+		.Emboltorio
+			margin 0 0 4em 0
+		img
+			border solid 3px violeta
+			height auto
+			max-width 234px
+			width 100%
+		p
+			color grey
+			font-size .9em
+			font-weight normal
+			line-height 24px
+			margin 0 0 1em 0
+			padding 0 .3em 0 .3em
+			width auto
+	.Col3
+		height auto
+		text-align center
+		width 20%
+		h2
+			font-size .9em
+			font-weight 100
+			text-align left
+		a
+			color blanco
+			background violeta
+			border-radius 3px
+			-webkit-border-radius 3px
+			-moz-border-radius 3px
+			-o-border-radius 3px
+			-ms-border-radius 3px
+			font-size .8em
+			font-weight normal
+			padding .2em .5em .2em .5em
+			text-decoration none
+		a:hover
+			background #423782
+		.Emboltorio
+			margin 0 0 4em 0
+		img
+			border solid 3px violeta
+			height auto
+			max-width 234px
+			width 100%
+		p
+			color grey
+			font-size .9em
+			font-weight normal
+			line-height 24px
+			margin 0 0 1em 0
+			padding 0 .3em 0 .3em
+			width auto
+	.Col4
+		height auto
+		text-align center
+		width 20%
+		h2
+			font-size .9em
+			font-weight 100
+			text-align left
+		a
+			color blanco
+			background violeta
+			border-radius 3px
+			-webkit-border-radius 3px
+			-moz-border-radius 3px
+			-o-border-radius 3px
+			-ms-border-radius 3px
+			font-size .8em
+			font-weight normal
+			padding .2em .5em .2em .5em
+			text-decoration none
+		a:hover
+			background #423782
+		.Emboltorio
+			margin 0 0 4em 0
+		img
+			border solid 3px violeta
+			height auto
+			max-width 234px
+			width 100%
+		p
+			color grey
+			font-size .9em
+			font-weight normal
+			line-height 24px
+			margin 0 0 1em 0
+			padding 0 .3em 0 .3em
+			width auto
+			
+@media screen and (min-width: 0px) and (max-width: 319px)		
+	.Cuerpo
+		width 95%		
+	.Contenedor-zapatos
+		height 370px
+	.Contenido
+		flex-direction column
+		justify-content space-between
+		.Col1
+			width 100%
+			h2
+				text-align center
+		.Col2
+			width 100%
+			h2
+				text-align center
+		.Col3
+			width 100%
+			h2
+				text-align center
+		.Col4
+			width 100%
+			h2
+				text-align center				
+	.Tarjetas
+		margin 0
+		padding 0
+		
+	.Menu-internas
+		width 100%
+		ul
+			margin 2em 0 0 0
+			li
+				background negro
+				display block
+				line-height 26px
+				margin 0 0 .4em 0
+
+@media screen and (min-width: 320px) and (max-width: 479px)
+	.Contenedor-zapatos
+		height 370px		
+	.Cuerpo
+		width 95%		
+	.Contenido
+		flex-direction column
+		justify-content space-between
+		.Col1
+			width 100%
+			h2
+				text-align center
+		.Col2
+			width 100%
+			h2
+				text-align center
+		.Col3
+			width 100%
+			h2
+				text-align center
+		.Col4
+			width 100%
+			h2
+				text-align center
+	.Menu-internas
+		width 100%
+		ul
+			margin 2em 0 0 0
+			li
+				background negro
+				display block
+				line-height 26px
+				margin 0 0 .3em 0
+	.Emboltorio
+		a
+			background red
+				
+@media screen and (min-width: 480px) and (max-width: 759px)
+	.Cuerpo
+		width 95%
+	.Contenido
+		width 95%
+		.Col1
+			width 90%
+			h2
+				text-align center
+			img
+				height auto
+				width 90%
+		.Col2
+			width 90%
+			h2
+				text-align center
+			img
+				height auto
+				width 90%
+		.Col3
+			width 90%
+			h2
+				text-align center
+			img
+				height auto
+				width 90%
+		.Col4
+			width 90%
+			h2
+				text-align center
+			img
+				height auto
+				width 90%
+	.Menu-internas
+		width 100%
+		ul
+			margin 2em 0 0 0
+			li
+				background negro
+				display block
+				margin-bottom .2em
+				padding-bottom .5em
+				width 50%
+				
+				
+@media screen and (min-width: 760px) and (max-width: 1019px)
+		.Cuerpo
+			width 95%
+		.Contenido
+			width 90%
+			.Col1
+				padding 0 .7em 0 .7em
+				width 80%
+				img
+					height auto
+					width 100%
+			.Col2
+				padding 0 .7em 0 .7em
+				width 80%
+				img
+					height auto
+					width 100%
+			.Col3
+				padding 0 .7em 0 .7em
+				width 80%
+				img
+					height auto
+					width 100%
+			.Col4
+				padding 0 .7em 0 .7em
+				width 80%
+				img
+					height auto
+					width 100%
+		.Contenedor-menu
+			height 5rem
+			width 100%
+			img
+				margin 0
+				padding 0
+				
+@media screen and (min-width: 1020px) and (max-width: 1226px)
+	.Cuerpo
+		width 95%
+	.Contenido
+		width 96%
+		.Col1
+			img
+				height auto
+				width 100%
+		.Col2
+			img
+				height auto
+				width 100%
+		.Col3
+			img
+				height auto
+				width 100%
+		.Col4
+			img
+				height auto
+				width 100%
+	.Contenedor-zapatos
+		.Contenedor-menu
+			width 100%
+			img 
+				width 95%
+
+
+
+	
+.Pie
+	height auto
+	width 100%
+	
+
+.Tarjetas
+	border-bottom solid 7px violeta
+	height auto
+	padding-bottom 1em
+	padding-right 1em
+	margin-top 1.5em
+	text-align right
+	width auto
+	
+
+.Redes-pie
+	height auto
+	margin .5em 0 .5em 0
+	width auto
+	ul
+		text-align right
+	ul li
+		display inline-block
+		padding 0 1em 0 .5em
+
+
+.Info
+	height auto
+	width 100%
+	p
+		font-size .8em
+		font-weight normal
+		margin 0 1em 0 0
+		text-align right
+		
+
+
+.Contendio-eventos
+	margin 0 auto
+	margin-top 1em
+	max-width 1200px
+	width 100%
+	p
+		color #333
+		font-size .9em
+		font-weight normal
+		margin 0 0 1em 0
+		line-height 26px
+		
+
+.Contenido-condiciones
+	height auto
+	margin 0 auto
+	margin-bottom 3em
+	margin-top 1em
+	max-width 1200px
+	width 100%
+	p
+		color #333
+		font-size .9em
+		font-weight normal
+		margin 0 0 1em 0
+		line-height 26px
+@media screen and (min-width: 0px) and (max-width: 319px)	
+	.Contenido-condiciones
+		width 90%
+		p
+			width 100%
+@media screen and (min-width: 320px) and (max-width: 479px)
+	.Contenido-condiciones
+		width 90%
+		p
+			width 100%
+@media screen and (min-width: 480px) and (max-width: 759px)
+	.Contenido-condiciones
+		width 90%
+		p
+			width 100%
+@media screen and (min-width: 760px) and (max-width: 1019px)
+	.Contenido-condiciones
+		width 95%
+		p
+			width 100%	
+@media screen and (min-width: 1020px) and (max-width: 1226px)
+	.Contenido-condiciones
+		width 95%
+		p
+			width 100%
+
+
+.Imperial
+	margin 0 auto
+	margin-top 1em
+	max-width 1200px
+	width 100%
+	a
+		color blanco
+		background violeta
+		border-radius 3px
+		-webkit-border-radius 3px
+		-moz-border-radius 3px
+		-o-border-radius 3px
+		-ms-border-radius 3px
+		font-size .9em 
+		font-weight normal
+		padding .3em .5em .3em .5em
+		text-decoration none
+	p
+		color #333
+		font-size .9em
+		font-weight normal
+		margin 0 0 1em 0
+		line-height 26px
+		
+.Ahora12
+	overflow hidden
+	width 100%
+	img
+		float right
+		margin 1em 1em .5em 0
+		
+.Cont-pagos
+	margin 0 auto
+	margin-bottom 2em
+	margin-top 1em
+	max-width 1200px
+	width 100%
+	a
+		background violeta
+		border-radius 3px
+		-webkit-border-radius 3px
+		-moz-border-radius 3px
+		-o-border-radius 3px
+		-ms-border-radius 3px
+		color blanco
+		padding .1em .5em .1em .5em
+		text-decoration none
+	p
+		color #333
+		font-size .9em
+		font-weight normal
+		margin 0 0 1em 0
+		line-height 26px
+
+
+.Perfil-pablo
+	background #100e0f
+	height auto
+	display flex
+	display -webkit-flex
+	justify-content space-between
+	padding 0 0 3em 0
+	width 100%	
+	.Col-Pablo1
+		height auto
+		padding 0 0 5em 0
+		width 70%
+		img
+			padding 1em
+		p
+			color #848080
+			font-size .9em
+			font-weight normal
+			line-height 23px	
+			padding 0 1em 1em 1.5em
+	.Col-Pablo2
+		background-image url('../img/perfil-pablo.jpg')
+		background-repeat no-repeat
+		height auto
+		width 35%
+		.Video
+			text-align center
+			margin 35em 0 0 0 
+			
+
+.Pie-pablo
+	background #100e0f
+	height auto
+	width 100%
+	.Pie-perfilPablo
+		overflow hidden
+		padding .5em 1em .5em 0
+		ul li 
+			display inline-block
+			float right
+			padding 0 .5em 0 .5em
+
+.Firma
+	color #848080
+	font-family 'Handlee', cursive
+	font-size 1em
+	font-weight 100
+	padding 0 0 0 1.5em
+	span
+		font-family 'Open Sans', sans-serif
+		font-size .8em
+		font-weight normal
+		a
+			color blanco
+			text-decoration none
+			
+
+.Institucional-pie
+	color blanco
+	background #100e0f
+	height auto
+	width 100%
+	a
+		color blanco
+	p
+		font-size .8em
+		font-weight normal
+		text-align right
+		margin 0 1.5em 0 0
+		
