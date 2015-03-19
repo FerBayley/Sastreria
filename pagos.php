@@ -39,11 +39,15 @@
 				Ahora también nos encontramos adheridos al programa Ahora12 por el cual puede 
 				abonar sus compras en 12 cuotas sin interés.
 			</p>
-
+		
 			<p>
-				E-mail: <a href="mailto:sastreria@detali.com.ar">sastreria@detali.com.ar</a>
+				Show room
 				<br>
-				Tel: 15 6 692 5770 | 15 3 295 6854
+				Dirección: Av Roque Saenz Peña 615 - Piso 5 Oficinas 512
+				<br>
+				Tel: 4-328-9656
+				<br>
+				E-mail: <a href="mailto:sastreria@detali.com.ar">sastreria@detali.com.ar</a>
 			</p>
 		</article>
 	</section> <!-- End of Cont-pagos -->

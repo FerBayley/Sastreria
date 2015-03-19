@@ -49,13 +49,18 @@
 				</article>
 
 				<div class="Firma">
-					<h3>Pablo Anta <br> <span><a href="">pabloanta@detali.com</a></span></h3>
+					<h3>Pablo Anta <br> <span>
+						<a href="mailto:pabloanta@detali.com">pabloanta@detali.com</a>
+							</span>
+					</h3>
 				</div> <!-- End of Firma -->
 			</div> <!-- End of Col-Pablo1 -->
 
 		<div class="Col-Pablo2">
 			<div class="Video">
-				<a href="#"><img src="img/video.jpg" alt=""></a>
+				<a href="https://www.facebook.com/video.php?v=792295437529319&set=vb.464194760339390&type=2&theater" target="_blanck">
+					<img src="img/video.jpg" alt="Video Sastreia Detali">
+				</a>
 			</div> <!-- End of Video -->
 		</div> <!-- End of Col-Pablo2 -->
 	</section> <!-- End of Perfil-pablo -->
