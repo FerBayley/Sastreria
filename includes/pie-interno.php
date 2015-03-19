@@ -41,7 +41,7 @@
 	<div class="Info">
 		<p>
 			Derechos reservados 2015  -  Av Roque Saenz Peña 615  -  Piso 5 Oficinas 512 - 
-			Tel: 4 328 9656 - sastreriadetali@detali.com
+			Tel: 4 328 9656 - <a href="mailto:sastreria@detali.com">sastreria@detali.com</a>
 		</p>
 	</div> <!-- End of Info -->
 </section> <!-- End of Pie -->
