@@ -23,37 +23,81 @@
 	<section class="Contenido">
 		<div class="Col1">
 			<div class="Emboltorio">
-				<h2>Zapatos</h2>
+				<h2>Zapatos - Cocodrilo Marr&oacute;n</h2>
 					<img src="img/zapatos/zapato-1.jpg" width="684" height="513" alt="Zapatos Detali">
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Zapatos - Color Camel</h2>
+					<img src="img/zapatos/a1.jpg" width="684" height="513" alt="Zapatos Detalli">
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Zapatos - Gamuza azul</h2>
+					<img src="img/zapatos/i1.jpg" width="684" height="513" alt="Zapatos Detalli">
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col1 -->
 
 		<div class="Col2">
 			<div class="Emboltorio">
-				<h2>Zapatos</h2>
+				<h2>Zapatos - Color negro</h2>
 					<img src="img/zapatos/zapato-3.jpg" width="684" height="513" alt="Zapatos Detali">
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Zapatos - Cocodrilo negro</h2>
+					<img src="img/zapatos/e1.jpg" width="684" height="513" alt="Zapatos Detali">
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col2 -->
 
 		<div class="Col3">
 			<div class="Emboltorio">
-				<h2>Zapatos</h2>
+				<h2>Zapatos - Color Vis&oacute;n</h2>
 					<img src="img/zapatos/zapato-5.jpg" width="684" height="513" alt="Zapatos Detali">
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Zapatos - Color negro</h2>
+					<img src="img/zapatos/g1.jpg" width="684" height="513" alt="Zapatos Detali">
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col3 -->
 
 		<div class="Col4">
 			<div class="Emboltorio">
-				<h2>Zapatos</h2>
-					<img src="img/zapatos/zapato-4.jpg" width="684" height="513" alt="Zapatos Detali">
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+				<h2>Zapatos - Color suela</h2>
+					<img src="img/zapatos/c1.jpg" width="684" height="513" alt="Zapatos Detali">
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Zapatos - Gamuza Marr&oacute;n</h2>
+					<img src="img/zapatos/h1.jpg" width="684" height="513" alt="Zapatos Detali">
+						<p>Precio Show Room <strong>AR$2.000</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$1.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col4 -->
 	</section> <!-- End of Contenido -->

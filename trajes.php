@@ -25,8 +25,25 @@
 			<div class="Emboltorio">
 				<h2>Ambo super 100´s</h2>
 					<img src="img/trajes/ambo-1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+						<p>Precio Show Room <strong>AR$3.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$3.000</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Ambo super 130´s</h2>
+					<img src="img/130/a1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+						<p>Precio Show Room <strong>AR$5.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$4.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Ambo super 130´s</h2>
+					<img src="img/130/e1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+						<p>Precio Show Room <strong>AR$5.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$4.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col1 -->
 
@@ -34,8 +51,25 @@
 			<div class="Emboltorio">
 				<h2>Ambo super 100´s</h2>
 					<img src="img/trajes/ambo-2.jpg" width="684" height="513" alt="Ambo s100 Detalli">
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+						<p>Precio Show Room <strong>AR$3.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$3.000</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Ambo super 130´s</h2>
+					<img src="img/130/b1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+						<p>Precio Show Room <strong>AR$5.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$4.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Ambo super 130´s</h2>
+					<img src="img/130/f1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+						<p>Precio Show Room <strong>AR$5.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$4.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col2 -->
 
@@ -43,8 +77,17 @@
 			<div class="Emboltorio">
 				<h2>Ambo super 100´s</h2>
 					<img src="img/trajes/ambo-3.jpg" width="684" height="513" alt="Ambo s100 Detalli">
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+						<p>Precio Show Room <strong>AR$3.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$3.000</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Ambo super 130´s</h2>
+					<img src="img/130/c1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+						<p>Precio Show Room <strong>AR$5.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$4.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col3 -->
 
@@ -52,8 +95,17 @@
 			<div class="Emboltorio">
 				<h2>Ambo super 100´s</h2>
 					<img src="img/trajes/ambo-4.jpg" width="684" height="513" alt="Ambo s100 Detalli">
-						<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+						<p>Precio Show Room <strong>AR$3.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$3.000</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
+			</div> <!-- End of Emboltorio -->
+
+			<div class="Emboltorio">
+				<h2>Ambo super 130´s</h2>
+					<img src="img/130/d1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+						<p>Precio Show Room <strong>AR$5.500</strong></p>
+							<p>Precio exclusivo Mercado Pago <strong>AR$4.700</strong></p>
+								<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a> <a href="#">COMPRAR</a>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col4 -->
 	</section> <!-- End of Contenido -->
