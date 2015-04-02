@@ -1,13 +1,18 @@
-<!DOCTYPE html>
-<html lang="es">
-<?php include("includes/head.php"); ?>
+<?php
+/*
+Template Name: camisas
+*/
+?>
+
+<?php get_header(); ?>
+
 <body>
 	<?php include_once("includes/analyticstracking.php") ?>
 	<?php include("includes/menu-up.php"); ?>	
 	<section class="Contenedor-camisas">
 		<div class="Contenedor-menu">
 			<div class="Imagen">
-				<img src="img/logo.png" alt="">
+				<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
 			</div> <!-- End of Imagen -->
 
 			<?php include("includes/menu-internas.php"); ?>
@@ -21,65 +26,69 @@
 	<section class="Contenido">
 		<div class="Col1">
 			<div class="Emboltorio">
-				<h2>Camisa Detal&iacute;</h2>
-					<img src="img/camisas/camisa-1.jpg" width="684" height="513" alt="Camisas Detali">
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
+				<?php query_posts("category_name=camisas-col1"); ?>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<h2><?php the_title();?></h2>
 
-			<div class="Emboltorio">
-				<h2>Camisa Detal&iacute;</h2>
-					<img src="img/camisas/camisa-2.jpg" width="684" height="513" alt="Camisas Detali">
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+					<div class="Thumb">
+						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
+					</div><!-- End of Thumb -->
+
+					<p><?php the_content();?></p>
+				<?php endwhile; else: ?>
+					<p>No se encontraron productos cargados en esta sección.</p>
+				<?php endif; ?>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col1 -->
 
 		<div class="Col2">
 			<div class="Emboltorio">
-				<h2>Camisa Detal&iacute;</h2>
-					<img src="img/camisas/camisa-3.jpg" width="684" height="513" alt="Camisas Detali">
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
+				<?php query_posts("category_name=camisas-col2"); ?>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<h2><?php the_title();?></h2>
 
-			<div class="Emboltorio">
-				<h2>Camisa Detal&iacute;</h2>
-					<img src="img/camisas/camisa-4.jpg" width="684" height="513" alt="Camisas Detali">
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+					<div class="Thumb">
+						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
+					</div><!-- End of Thumb -->
+
+					<p><?php the_content();?></p>
+				<?php endwhile; else: ?>
+					<p>No se encontraron productos cargados en esta sección.</p>
+				<?php endif; ?>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col2 -->
 
 		<div class="Col3">
 			<div class="Emboltorio">
-				<h2>Camisa Detal&iacute;</h2>
-					<img src="img/camisas/camisa-5.jpg" width="684" height="513" alt="Camisas Detali">
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
+				<?php query_posts("category_name=camisas-col3"); ?>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<h2><?php the_title();?></h2>
 
-			<div class="Emboltorio">
-				<h2>Camisa Detal&iacute;</h2>
-					<img src="img/camisas/camisa-6.jpg" width="684" height="513" alt="Camisas Detali">
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+					<div class="Thumb">
+						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
+					</div><!-- End of Thumb -->
+
+					<p><?php the_content();?></p>
+				<?php endwhile; else: ?>
+					<p>No se encontraron productos cargados en esta sección.</p>
+				<?php endif; ?>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col3 -->
 
 		<div class="Col4">
 			<div class="Emboltorio">
-				<h2>Camisa Detal&iacute;</h2>
-					<img src="img/camisas/camisa-7.jpg" width="684" height="513" alt="Camisas Detali">
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
+				<?php query_posts("category_name=camisas-col4"); ?>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<h2><?php the_title();?></h2>
 
-			<div class="Emboltorio">
-				<h2>Camisa Detal&iacute;</h2>
-					<img src="img/camisas/camisa-8.jpg" width="684" height="513" alt="Camisas Detali">
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
-							<a href="mailto:sastreriadetali@gmail.com">CONSULTAR</a>
+					<div class="Thumb">
+						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
+					</div><!-- End of Thumb -->
+
+					<p><?php the_content();?></p>
+				<?php endwhile; else: ?>
+					<p>No se encontraron productos cargados en esta sección.</p>
+				<?php endif; ?>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col4 -->
 	</section> <!-- End of Contenido -->

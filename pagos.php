@@ -1,6 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
-<?php include("includes/head.php"); ?>
+<?php
+/*
+Template Name:  pagos
+*/
+?>
+
+<?php get_header(); ?>
+
+
+
 <body>
 	<?php include_once("includes/analyticstracking.php") ?>
 
@@ -9,7 +16,7 @@
 	<section class="Contenedor-formasDepago">
 		<div class="Contenedor-menu">
 			<div class="Imagen">
-				<img src="img/logo.png" alt="">
+				<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
 			</div> <!-- End of Imagen -->
 
 			<?php include("includes/menu-internas.php"); ?>

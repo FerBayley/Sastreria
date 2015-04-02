@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-	
-	<?php include("includes/head.php"); ?>
+<?php get_header(); ?>
 
 <body>
-	<?php include_once("includes/analyticstracking.php") ?>
 
 	<?php include("includes/menu-up.php"); ?>
 
@@ -13,9 +9,11 @@
 
 		<?php include("includes/redes-principal.php"); ?>
 
-		<?php include("includes/pie.php"); ?>
+	<?php get_footer(); ?>	
 
 	</section> <!-- End of Contenido-principal -->
+
+	<?php include_once("includes/analyticstracking.php") ?>	
 	
 </body>
 </html>

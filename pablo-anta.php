@@ -1,6 +1,12 @@
-<!DOCTYPE html>
-<html lang="es">
-<?php include("includes/head.php"); ?>
+<?php
+/*
+Template Name:  quienes-somos
+*/
+?>
+
+<?php get_header(); ?>
+
+
 <body>
 	<?php include_once("includes/analyticstracking.php") ?>
 	
@@ -8,7 +14,7 @@
 
 	<section class="Perfil-pablo">
 		<div class="Col-Pablo1">
-			<img src="img/logo.png" alt="">
+			<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
 				<article>
 					<p>
 						Mi nombre es Pablo Anta. Allá por el año 2003 mientras estaba en la universidad 
