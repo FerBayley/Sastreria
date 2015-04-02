@@ -6,3 +6,7 @@ Version: 0.0.1
 Author: FMB
 Autor URL: @ferbayley
 */
+
+
+@import url('../sastreria/css/normalize.css');
+@import url('../sastreria/css/main.css');
