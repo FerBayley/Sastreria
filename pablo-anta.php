@@ -78,5 +78,6 @@ Template Name:  quienes-somos
 				</li>
 			</ul>
 		</div> <!-- End of Pie-perfilPablo -->
+	</section>
 
 <?php get_footer(); ?>
