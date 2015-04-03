@@ -10,7 +10,7 @@ Template Name: pantalones
 	<?php include_once("includes/analyticstracking.php") ?>
 
 	<?php include("includes/menu-up.php"); ?>
-	
+
 	<section class="Contenedor-pantalones">
 		<div class="Contenedor-menu">
 			<div class="Imagen">
@@ -18,6 +18,7 @@ Template Name: pantalones
 			</div> <!-- End of Imagen -->
 
 			<?php include("includes/menu-internas.php"); ?>
+		</div> <!-- Contenedor-menu -->
 	</section> <!-- End of Contenedor-zapatos -->
 
 	<section class="Cuerpo">
@@ -95,6 +96,6 @@ Template Name: pantalones
 	</section> <!-- End of Contenido -->
 
 	<?php include("includes/pie-interno.php"); ?>
-	
+
 </body>
 </html>

@@ -11,7 +11,7 @@ Template Name: eventos
 	<?php include_once("includes/analyticstracking.php") ?>
 
 	<?php include("includes/menu-up.php"); ?>
-	
+
 	<section class="Contenedor-eventos">
 		<div class="Contenedor-menu">
 			<div class="Imagen">
@@ -30,32 +30,19 @@ Template Name: eventos
 			<div class="Contendio-eventos">
 				<article>
 					<p>
-						Ofrecemos una atención exclusiva para eventos tales como casamientos, 
-						cumpleaños de quince, eventos familiares o empresariales de diverso tipo.
-					</p>
+						<?php query_posts("category_name=Eventos"); ?>
+						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-					<p>
-						Tratamos de asesorar siempre al novio y a su grupo familiar, buscando la 
-						distinción, combinando lo clásico y moderno. 
-						Asesoramos siempre buscando que la vestimenta del novio se destaque pero 
-						que al mismo tiempo no caiga en prendas antiguas y que difícilmente pueda 
-						utilizar nuevamente. Buscando que las prendas del grupo familiar sean 
-						distintas al del resto de los invitados, que se unan en texturas, colores 
-						y detalles.
-					</p>
-
-					<p>
-						Realizamos todas las pruebas y charlas que sean necesarias. Siempre estamos 
-						a disposición para asesorar, probar y acompañar. Ofrecemos además promociones 
-						especiales para estos eventos que hacen que nuestro trabajo sea además de 
-						exclusivo y personalizado, accesible.
-
+						<p><?php the_content();?></p>
+						<?php endwhile; else: ?>
+							<p>No se encontraron productos cargados en esta sección.</p>
+						<?php endif; ?>
 					</p>
 				</article>
-			</div> <!-- Contenido-eventos -->			
+			</div> <!-- Contenido-eventos -->
 		</div> <!-- End of Eventos -->
 
 	<?php include("includes/pie-interno.php"); ?>
-	
+
 </body>
 </html>

@@ -84,6 +84,6 @@ Template Name: trajes
 	</section> <!-- End of Contenido -->
 
 	<?php include("includes/pie-interno.php"); ?>
-	
+
 </body>
 </html>

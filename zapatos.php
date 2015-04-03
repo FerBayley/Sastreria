@@ -10,7 +10,7 @@ Template Name: zapatos
 	<?php include_once("includes/analyticstracking.php") ?>
 
 	<?php include("includes/menu-up.php"); ?>
-	
+
 	<section class="Contenedor-zapatos">
 		<div class="Contenedor-menu">
 			<div class="Imagen">

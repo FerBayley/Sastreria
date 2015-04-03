@@ -9,9 +9,9 @@ Template Name: condiciones
 
 <body>
 	<?php include_once("includes/analyticstracking.php") ?>
-	
+
 	<?php include("includes/menu-up.php"); ?>
-	
+
 	<section class="Contenedor-condiciones">
 		<div class="Contenedor-menu">
 			<div class="Imagen">
@@ -30,31 +30,18 @@ Template Name: condiciones
 	<section class="Contenido-condiciones">
 		<article>
 			<p>
-				Es siempre preferible que conozca su talle de camisa y ambo al momento de solicitar una 
-				serie de productos para que lo visitemos. En caso de que no lo sepa se ofrecerá dicho 
-				producto en varios talles hasta calzar con el indicado.
-			</p>
+				<?php query_posts("category_name=Condiciones"); ?>
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-			<p>
-				Poseemos un departamento administrativo que tanto vía mail o telefónicamente se comunicará 
-				con usted para combinar visitas, pagos, o lo que fuera necesario.
-			</p>
-
-			<p>
-				Los arreglos en el ambo de confección los realiza nuestra sastrería en caso de que fueran 
-				necesarios, el costo de los mismos corre por cuenta del cliente.
-			</p>
-
-			<p>
-				La sastrería y camisería de medida requiere el pago de un anticipo para iniciarse luego 
-				de haber escogido la o las telas. Los arreglos o retoques, si es que estos fueran 
-				necesarios, corren por cuenta de nuestra empresa. Hasta tanto el cliente no esté 
-				satisfecho la venta no está terminada.
+				<p><?php the_content();?></p>
+				<?php endwhile; else: ?>
+					<p>No se encontraron productos cargados en esta sección.</p>
+				<?php endif; ?>
 			</p>
 		</article>
 	</section> <!-- End of Contenido-condiciones -->
 
 	<?php include("includes/pie-interno.php"); ?>
-	
+
 </body>
 </html>

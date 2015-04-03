@@ -10,7 +10,7 @@ Template Name: corbatas
 	<?php include_once("includes/analyticstracking.php") ?>
 
 	<?php include("includes/menu-up.php"); ?>
-	
+
 	<section class="Contenedor-corbatas">
 		<div class="Contenedor-menu">
 			<div class="Imagen">
@@ -24,7 +24,7 @@ Template Name: corbatas
 	<section class="Cuerpo">
 		<h2>Corbatas</h2>
 	</section> <!-- End of Cuerpo -->
-	
+
 	<section class="Contenido">
 		<div class="Col1">
 			<div class="Emboltorio">
@@ -92,6 +92,6 @@ Template Name: corbatas
 	</section> <!-- End of Contenido -->
 
 	<?php include("includes/pie-interno.php"); ?>
-	
+
 </body>
 </html>

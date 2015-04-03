@@ -10,9 +10,9 @@ Template Name: cinturones
 
 <body>
 	<?php include_once("includes/analyticstracking.php") ?>
-	
+
 	<?php include("includes/menu-up.php"); ?>
-	
+
 	<section class="Contenedor-cinturones">
 		<div class="Contenedor-menu">
 			<div class="Imagen">
@@ -96,6 +96,6 @@ Template Name: cinturones
 	</section> <!-- End of Contenido -->
 
 	<?php include("includes/pie-interno.php"); ?>
-	
+
 </body>
 </html>

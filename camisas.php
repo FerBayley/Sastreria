@@ -8,7 +8,7 @@ Template Name: camisas
 
 <body>
 	<?php include_once("includes/analyticstracking.php") ?>
-	<?php include("includes/menu-up.php"); ?>	
+	<?php include("includes/menu-up.php"); ?>
 	<section class="Contenedor-camisas">
 		<div class="Contenedor-menu">
 			<div class="Imagen">
@@ -94,6 +94,6 @@ Template Name: camisas
 	</section> <!-- End of Contenido -->
 
 	<?php include("includes/pie-interno.php"); ?>
-	
+
 </body>
 </html>

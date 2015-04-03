@@ -45,3 +45,7 @@
 		</p>
 	</div> <!-- End of Info -->
 </section> <!-- End of Pie -->
+
+<?php wp_footer(); ?>
+
+
