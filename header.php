@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="UTF-8">
 	<title>Detali Sastreria Italiana</title>
-	<meta name="description" content="">
+	<meta name="description" content="Detalí Sastreria Italiana a medida">
 
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>

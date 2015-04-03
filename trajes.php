@@ -48,7 +48,11 @@ Template Name: trajes
 				<?php query_posts("category_name=trajes-col2"); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<h2><?php the_title();?></h2>
-					<img src="img/trajes/ambo-1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+					
+					<div class="Thumb">
+						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
+					</div><!-- End of Thumb -->
+
 					<p><?php the_content();?></p>
 				<?php endwhile; else: ?>
 					<p>No se encontraron productos cargados en esta sección.</p>
@@ -61,7 +65,11 @@ Template Name: trajes
 				<?php query_posts("category_name=trajes-col3"); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<h2><?php the_title();?></h2>
-					<img src="img/trajes/ambo-1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+					
+					<div class="Thumb">
+						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
+					</div><!-- End of Thumb -->
+
 					<p><?php the_content();?></p>
 				<?php endwhile; else: ?>
 					<p>No se encontraron productos cargados en esta sección.</p>
@@ -74,7 +82,11 @@ Template Name: trajes
 				<?php query_posts("category_name=trajes-col4"); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<h2><?php the_title();?></h2>
-					<img src="img/trajes/ambo-1.jpg" width="684" height="513" alt="Ambo s100 Detalli">
+					
+					<div class="Thumb">
+						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
+					</div><!-- End of Thumb -->
+
 					<p><?php the_content();?></p>
 				<?php endwhile; else: ?>
 					<p>No se encontraron productos cargados en esta sección.</p>
