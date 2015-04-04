@@ -80,7 +80,8 @@ Template Name: cinturones
 		</div> <!-- End of Col3 -->
 
 		<div class="Col4">
-			<?php query_posts("category_name=cinturones-col4"); ?>
+			<div class="Emboltorio">
+				<?php query_posts("category_name=cinturones-col4"); ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<h2><?php the_title();?></h2>
 
@@ -92,6 +93,7 @@ Template Name: cinturones
 				<?php endwhile; else: ?>
 					<p>No se encontraron productos cargados en esta sección.</p>
 				<?php endif; ?>
+			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col4 -->
 	</section> <!-- End of Contenido -->
 
