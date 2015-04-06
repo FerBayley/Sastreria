@@ -27,75 +27,17 @@ Template Name: cinturones
 		<h2>Cinturones</h2>
 	</section> <!-- End of Cuerpo -->
 
-	<section class="Contenido">
-		<div class="Col1">
-			<div class="Emboltorio">
-				<?php query_posts("category_name=cinturones-col1"); ?>
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-					<h2><?php the_title();?></h2>
+	<section class="Trajes__cien">
+		<h3>Cinturones cuero</h3>
+	</section> <!-- End of 100 -->
 
-					<div class="Thumb">
-						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
-					</div><!-- End of Thumb -->
+	<?php include("includes/cintures-cuero.php"); ?>
 
-					<p><?php the_content();?></p>
-				<?php endwhile; else: ?>
-					<p>No se encontraron productos cargados en esta sección.</p>
-				<?php endif; ?>
-			</div> <!-- End of Emboltorio -->
-		</div> <!-- End of Col1 -->
+	<section class="Trajes__cien">
+		<h3>Cinturones gamuza</h3>
+	</section> <!-- End of 100 -->
 
-		<div class="Col2">
-			<div class="Emboltorio">
-				<?php query_posts("category_name=cinturones-col2"); ?>
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-					<h2><?php the_title();?></h2>
-
-					<div class="Thumb">
-						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
-					</div><!-- End of Thumb -->
-
-					<p><?php the_content();?></p>
-				<?php endwhile; else: ?>
-					<p>No se encontraron productos cargados en esta sección.</p>
-				<?php endif; ?>
-			</div> <!-- End of Emboltorio -->
-		</div> <!-- End of Col2 -->
-
-		<div class="Col3">
-			<div class="Emboltorio">
-				<?php query_posts("category_name=cinturones-col3"); ?>
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-					<h2><?php the_title();?></h2>
-
-					<div class="Thumb">
-						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
-					</div><!-- End of Thumb -->
-
-					<p><?php the_content();?></p>
-				<?php endwhile; else: ?>
-					<p>No se encontraron productos cargados en esta sección.</p>
-				<?php endif; ?>
-			</div> <!-- End of Emboltorio -->
-		</div> <!-- End of Col3 -->
-
-		<div class="Col4">
-			<div class="Emboltorio">
-				<?php query_posts("category_name=cinturones-col4"); ?>
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-					<h2><?php the_title();?></h2>
-
-					<div class="Thumb">
-						<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
-					</div><!-- End of Thumb -->
-
-					<p><?php the_content();?></p>
-				<?php endwhile; else: ?>
-					<p>No se encontraron productos cargados en esta sección.</p>
-				<?php endif; ?>
-			</div> <!-- End of Emboltorio -->
-		</div> <!-- End of Col4 -->
-	</section> <!-- End of Contenido -->
+	<?php include("includes/cinturones-gamuza.php"); ?>
 
 	<?php include("includes/pie-interno.php"); ?>
 
