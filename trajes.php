@@ -25,7 +25,18 @@ Template Name: trajes
 		<h2>Trajes</h2>
 	</section> <!-- End of Cuerpo -->
 
+	<section class="Trajes__cien">
+		<h3>Ambos 100's</h3>
+	</section> <!-- End of 100 -->
+
 	<?php include ("includes/columna-100.php"); ?>
+
+
+	<section class="Trajes__cien">
+		<h3>Ambos 130's</h3>
+	</section> <!-- End of 100 -->
+
+
 	<?php include ("includes/columna-130.php"); ?>
 	<?php include("includes/pie-interno.php"); ?>
 
