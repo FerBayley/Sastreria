@@ -26,7 +26,7 @@ Template Name: corbatas
 	</section> <!-- End of Cuerpo -->
 
 	<section class="Trajes__cien">
-		<h3>Corbatas Detalí</h3>
+		<h3>Corbatas Yves Saint Laurent</h3>
 	</section> <!-- End of 100 -->
 
 	<?php include("includes/corbatas-detali.php"); ?>

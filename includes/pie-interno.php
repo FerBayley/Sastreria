@@ -1,6 +1,7 @@
 <section class="Pie">
 	<div class="Tarjetas">
-		<img src="<?php bloginfo('template_directory'); ?>/img/tarjetas.jpg" alt="">
+		<img src="<?php bloginfo('template_directory'); ?>/img/tarjetas.jpg" alt="Aceptamos todas las tarjetas">
+		<p>Aceptamos tarjetas y mercado pago</p>
 	</div> <!-- End of Tarjetas -->
 
 	<div class="Redes-pie">

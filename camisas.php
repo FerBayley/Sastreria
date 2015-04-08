@@ -24,12 +24,6 @@ Template Name: camisas
 	</section> <!-- End of Cuerpo -->
 
 	<section class="Trajes__cien">
-		<h3>Camisas Detalí</h3>
-	</section> <!-- End of 100 -->
-
-	<?php include("includes/camisas-detali.php"); ?>
-
-	<section class="Trajes__cien">
 		<h3>Camisas Rochas</h3>
 	</section> <!-- End of 100 -->
 
