@@ -20,11 +20,8 @@
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
-
-
-	<!--[if lt IE 9]>
-    	<script src="components/html5shiv/html5shiv.js"></script>
-	<![endif]-->
+	
+	<!--[if IE]><script src="js/html5shiv.min.js"></script><![endif]-->
 
 	<?php wp_head(); ?>
 </head>
