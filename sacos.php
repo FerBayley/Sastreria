@@ -26,7 +26,7 @@ Template Name: Sacos
 	</section> <!-- End of Cuerpo -->
 
 	<section class="Trajes__cien">
-		<h3>Sacos</h3>
+		<h3>Terciopelo</h3>
 	</section> <!-- End of 100 -->
 
 	<?php include ("includes/sacos-archivo.php"); ?>
