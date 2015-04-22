@@ -11,7 +11,6 @@
 
 					<p><?php the_content();?></p>
 				<?php endwhile; else: ?>
-					<p>No se encontraron productos cargados en esta sección.</p>
 				<?php endif; ?>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col1 -->
@@ -28,7 +27,6 @@
 
 					<p><?php the_content();?></p>
 				<?php endwhile; else: ?>
-					<p>No se encontraron productos cargados en esta sección.</p>
 				<?php endif; ?>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col2 -->
@@ -45,7 +43,6 @@
 
 					<p><?php the_content();?></p>
 				<?php endwhile; else: ?>
-					<p>No se encontraron productos cargados en esta sección.</p>
 				<?php endif; ?>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col3 -->
@@ -62,7 +59,6 @@
 
 					<p><?php the_content();?></p>
 				<?php endwhile; else: ?>
-					<p>No se encontraron productos cargados en esta sección.</p>
 				<?php endif; ?>
 			</div> <!-- End of Emboltorio -->
 		</div> <!-- End of Col4 -->
